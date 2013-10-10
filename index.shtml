@@ -8,16 +8,10 @@
 		<meta name="author" content="1231530">
 	</head>
 	<body>
-		<a href="index.html"><img class="logo" src="img/logo.png" alt="Logo"></a>
-		<a href="index.html"><img class="dawgpizza" src="img/dawg-pizza.png" alt="Dawg Pizza"></a>
+		<!--#include virtual="inc/logo.html" -->
+
 		<div class="content-box">
-			<nav>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="menu.html">Menu</a></li>
-					<li><a href="about.html">About Us</a></li>
-				</ul>
-			</nav>	
+			<!--#include virtual="inc/header.html" -->
 
 			<img class="pizzapicture" src="img/pizza1.jpg" alt="Picture of a pizza">
 
@@ -37,5 +31,7 @@
 			<p></p>
 			<p></p>
 		</div>
+
+		<!--#include virtual="inc/footer.html" -->
 	</body>
 </html>

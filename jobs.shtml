@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Dawg Pizza Jobs</title>
+		<meta name="description" content="Our pizzas are the best in Seattle, but don't take our word for it. Try one and you'll see!">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/styles.css">
+		<meta name="author" content="1231530">
+	</head>
+	<body>
+		<!--#include virtual="inc/logo.html" -->
+
+		<div class="content-box">
+			<!--#include virtual="inc/header.html" -->
+
+			<p><h1>Job Openings</h1></p>
+			<p>Now hiring kitchen staff as well as delivery drivers.</p>
+
+		</div>
+
+		<!--#include virtual="inc/footer.html" -->
+
+	</body>
+</html>
