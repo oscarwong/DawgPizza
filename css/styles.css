@@ -84,6 +84,7 @@ h1 {
 }
 
 h2 {
+	padding: 10px;
 	padding-bottom: 10px;
 	font-size: 25px;
 	font-weight: bold;
@@ -91,6 +92,10 @@ h2 {
 
 section {
 	padding: 10px;
+}
+
+section p:first-of-type:first-line {
+	margin-left: 1em;
 }
 
 .menu ul {
@@ -119,6 +124,22 @@ section {
 	color: yellow;
 }
 
-.ovencounter {
-	width: 500px;
+.order-counter {
+	padding: 10px;
+	width: 350px;
+	float: right;
+}
+
+.pizzaoven {
+	float: right;
+	padding: 10px;
+	width: 350px;
+}
+
+aside {
+	float: right;
+	padding: 10px;
+	background-color: #EEE;
+	border: 1px;
+	color: black;
 }
