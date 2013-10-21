@@ -1,14 +1,15 @@
-@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
 
 @import url(reset.css);
 
 body {
-	background-image: url(../img/tileable_wood_texture.png);
-	background-repeat: repeat;
-	font-family: 'Varela Round', sans-serif;
+	/*background-image: url(../img/tileable_wood_texture.png);*/
+	/*background-repeat: repeat;*/
+	background-color: #ecf8f1;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
 	padding: 10px;
-	color: #FFF;
+	color: #333745;
 }
 
 .footer {
@@ -20,8 +21,9 @@ p {
 }
 
 .logo {
-	width: 200px;
-	float: right;
+	width: 150px;
+	position: fixed;
+	padding-left: 30px
 }
 
 .dawgpizza {
@@ -31,31 +33,45 @@ p {
 	top: 170px;
 }
 
-.content-box {
+/*.content-box {
 	width: 80%;
 	background-image: url(../img/dark_wood.png);
 	background-repeat: repeat;
 	margin-left: 50% auto;
 	box-shadow: 1px 1px 4px #555;
-}
+}*/
 
 .pizzapicture {
-	width: 500px;
+	width: 70%;
 	float: right;
 	margin: 10px;
 }
 
-nav li {
-	display: inline-block;
+/*nav li {
+	display: table;
+}*/
+
+.menu-box {
+	width: 250px;
+	/*margin-left: 50% auto;*/
+}
+
+nav {
+	padding-left: 35px;
+	position: fixed;
+	top: 200px;
+	line-height: 250%;
+	letter-spacing: 1px;
+	text-align: center;
 }
 
 nav a {
-	display: inline-block;
+	/*display: table-cell;*/
+	vertical-align: middle;
+	text-align: center;
 	padding: 10px;
-	font-weight: bold;
 	font-size: 120%;
-	text-align: left;
-	color: #875ac6;
+	color: #333745;
 }
 
 nav a:link,
@@ -64,7 +80,9 @@ nav a:visited {
 }
 
 nav a:hover {
-	text-decoration: underline;
+	font-size: 115%;
+	font-weight: bold;
+	color: #b05e27;
 }
 
 .content-box p a {
