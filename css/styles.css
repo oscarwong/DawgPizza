@@ -12,6 +12,43 @@ body {
 	color: #333745;
 }
 
+/*.grid {
+	border: 1px dotted #CCC;
+}
+
+.grid, .col1, .col2 {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.col1 {
+	width: 200px;
+	border: 1px dotted #CCC;
+}
+
+.col2 {
+	float: right;
+	width: 70%;
+	border: 1px dotted #CCC;
+}
+
+.grid {
+	border: 1px dotted #CCC;
+}
+
+.grid-table .col {
+	display: table-cell;
+}*/
+
+.navigation-bar {
+	position: absolute;
+	padding-top: 100px;
+	clear: both;
+}
+
+.content-body {
+}
+
 .footer {
 	color: black;
 }
@@ -22,28 +59,28 @@ p {
 
 .logo {
 	width: 150px;
-	position: fixed;
 	padding-left: 30px
 }
 
 .dawgpizza {
 	width: 200px;
-	position: absolute;
 	right: 9px;
 	top: 170px;
 }
 
-/*.content-box {
+.menu-box {
+	width: 20%;
+	/*margin-left: 50% auto;*/
+}
+
+.content-box {
 	width: 80%;
-	background-image: url(../img/dark_wood.png);
-	background-repeat: repeat;
-	margin-left: 50% auto;
-	box-shadow: 1px 1px 4px #555;
-}*/
+/*	margin-right: 50% auto;*/
+}
 
 .pizzapicture {
-	width: 70%;
 	float: right;
+	width: 70%;
 	margin: 10px;
 }
 
@@ -51,14 +88,8 @@ p {
 	display: table;
 }*/
 
-.menu-box {
-	width: 250px;
-	/*margin-left: 50% auto;*/
-}
-
 nav {
 	padding-left: 35px;
-	position: fixed;
 	top: 200px;
 	line-height: 250%;
 	letter-spacing: 1px;
