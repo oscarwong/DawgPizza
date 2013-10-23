@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 	<head>
+		<link rel="stylesheet" href="lib/bootstrap-3.0.0/css/bootstrap.min.css">
 		<title>Dawg Pizza</title>
 		<meta name="description" content="Our pizzas are the best in Seattle, but don't take our word for it. Try one and you'll see!">
 		<meta charset="UTF-8">
@@ -29,25 +30,31 @@
 	</head>
 
 	<body>
-		<a href="index.html"><img class="logo" src="img/logo-vertical.png" alt="Logo"></a>
 		<!-- <a href="index.html"><img class="dawgpizza" src="img/dawg-pizza.png" alt="Dawg Pizza"></a> -->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<a href="index.html"><img class="logo" src="img/logo-vertical.png" alt="Logo"></a>
+					<nav>
+						<ul>
+							<li><a href="index.html">HOME</a></li>
+							<li><a href="menu.html">MENU</a></li>
+							<li><a href="about.html">ABOUT US</a></li>
+							<li><a href="jobs.html">JOBS</a></li>
+						</ul>
+					</nav>
+				</div>
+				
+				<div class="col-md-9">
+					<img class="pizzapicture" src="img/pizza1.jpg" alt="Picture of a pizza">
+				</div>
+			</div>
+		</div>
+		
 
-		<div class="menu-box">
-			<nav>
-				<ul>
-					<li><a href="index.html">HOME</a></li>
-					<li><a href="menu.html">MENU</a></li>
-					<li><a href="about.html">ABOUT US</a></li>
-					<li><a href="jobs.html">JOBS</a></li>
-				</ul>
-			</nav>
-		</div>	
+		<!-- <div class="content-box">
 
-		<div class="content-box">
-
-			<img class="pizzapicture" src="img/pizza1.jpg" alt="Picture of a pizza">
-
-			<!-- <p>Awesome wood-fired pizza with fresh ingredients baked to order. Come in and eat, or call us for delivery!</p>
+			<p>Awesome wood-fired pizza with fresh ingredients baked to order. Come in and eat, or call us for delivery!</p>
 
 			<p>Business hours: 10am to 11pm, Monday through Saturday</p>
 
@@ -57,15 +64,17 @@
 
 			<p><a href="mailto:dawgpizzaseattle@gmail.com">Email us</a></p>
 
-			<p>Follow us on <a href="https://twitter.com/DawgPizzaSea/following">Twitter!</a></p> -->
+			<p>Follow us on <a href="https://twitter.com/DawgPizzaSea/following">Twitter!</a></p>
 
 			<p></p>
 			<p></p>
 			<p></p>
-		</div>
+		</div> -->
 
 		<!-- <div class="footer">
 			<p>&copy;Copyright Dawg Pizza 2013. Call us for delivery: 206-555-1212.</p>
 		</div> -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="lib/bootstrap-3.0.0/js/bootstrap.min.js"></script>
 	</body>
 </html>

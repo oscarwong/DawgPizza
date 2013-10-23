@@ -12,6 +12,15 @@ body {
 	color: #333745;
 }
 
+.navigation-bar {
+	position: absolute;
+	padding-top: 100px;
+	clear: both;
+}
+
+.content-body {
+}
+
 .footer {
 	color: black;
 }
@@ -21,44 +30,34 @@ p {
 }
 
 .logo {
-	width: 150px;
-	position: fixed;
-	padding-left: 30px
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 130px;
+	/*padding-left: 30px*/
 }
 
 .dawgpizza {
 	width: 200px;
-	position: absolute;
 	right: 9px;
 	top: 170px;
 }
 
-/*.content-box {
-	width: 80%;
-	background-image: url(../img/dark_wood.png);
-	background-repeat: repeat;
-	margin-left: 50% auto;
-	box-shadow: 1px 1px 4px #555;
-}*/
-
-.pizzapicture {
-	width: 70%;
-	float: right;
-	margin: 10px;
-}
-
-/*nav li {
-	display: table;
-}*/
-
 .menu-box {
-	width: 250px;
+	width: 20%;
 	/*margin-left: 50% auto;*/
 }
 
+.content-box {
+	width: 80%;
+/*	margin-right: 50% auto;*/
+}
+
+.pizzapicture {
+	width: 50%;
+}
+
 nav {
-	padding-left: 35px;
-	position: fixed;
 	top: 200px;
 	line-height: 250%;
 	letter-spacing: 1px;
@@ -66,9 +65,6 @@ nav {
 }
 
 nav a {
-	/*display: table-cell;*/
-	vertical-align: middle;
-	text-align: center;
 	padding: 10px;
 	font-size: 120%;
 	color: #333745;
@@ -138,7 +134,7 @@ section p:first-of-type:first-line {
 .menu li ul li ul {
 	list-style-type: none;
 	padding-top: 3px;
-	padding-left: 10px;
+	padding-left: 15px;
 }
 
 .special {
