@@ -10,26 +10,6 @@ body {
 	color: #333745;
 }
 
-/*.title {
-	text-align: center;
-	font-size: 50px;
-	font-weight: bold;
-	letter-spacing: 3px;
-}*/
-
-.navigation-bar {
-	position: absolute;
-	padding-top: 100px;
-	clear: both;
-}
-
-.content-body {
-}
-
-.footer {
-	color: black;
-}
-
 p {
 	padding: 10px;
 }
@@ -50,12 +30,10 @@ p {
 
 .menu-box {
 	width: 20%;
-	/*margin-left: 50% auto;*/
 }
 
 .content-box {
 	width: 80%;
-/*	margin-right: 50% auto;*/
 }
 
 .pizzapicture {
@@ -67,7 +45,6 @@ p {
 
 .content-box {
 	width: 80%;
-/*	margin-right: 50% auto;*/
 }
 
 .pizzapicture1 {
@@ -89,6 +66,7 @@ p {
 .last {
 	text-align: center;
 }
+
 nav {
 	padding-left: 35px;
 	top: 200px;
@@ -114,19 +92,6 @@ nav a:hover {
 	color: #b05e27;
 }
 
-.content-box p a {
-	color: blue;
-}
-
-.content-box p a:link,
-.content-box p a:visited {
-	text-decoration: none;
-}
-
-.content-box p a:hover {
-	text-decoration: underline;
-}
-
 h1 {
 	text-align: center;
 	font-size: 50px;
@@ -144,14 +109,6 @@ h2 {
 
 .categories {
 	text-align: center;
-}
-
-section {
-	padding: 10px;
-}
-
-section p:first-of-type:first-line {
-	margin-left: 1em;
 }
 
 .menu ul {
@@ -175,11 +132,6 @@ section p:first-of-type:first-line {
 	padding-left: 15px;
 }
 
-.special {
-	margin-bottom: 15px;
-	color: yellow;
-}
-
 .order-counter {
 	padding: 10px;
 	width: 350px;
@@ -192,12 +144,4 @@ section p:first-of-type:first-line {
 	margin-right: auto;
 	padding: 10px;
 	width: 350px;
-}
-
-aside {
-	float: right;
-	padding: 10px;
-	background-color: #EEE;
-	border: 1px;
-	color: black;
 }
