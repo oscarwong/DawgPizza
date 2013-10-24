@@ -3,8 +3,6 @@
 @import url(reset.css);
 
 body {
-	/*background-image: url(../img/tileable_wood_texture.png);*/
-	/*background-repeat: repeat;*/
 	background-color: #ecf8f1;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
@@ -12,37 +10,13 @@ body {
 	color: #333745;
 }
 
-<<<<<<< HEAD
-=======
-/*.grid {
-	border: 1px dotted #CCC;
-}
-
-.grid, .col1, .col2 {
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-.col1 {
-	width: 200px;
-	border: 1px dotted #CCC;
-}
-
-.col2 {
-	float: right;
-	width: 70%;
-	border: 1px dotted #CCC;
-}
-
-.grid {
-	border: 1px dotted #CCC;
-}
-
-.grid-table .col {
-	display: table-cell;
+/*.title {
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	letter-spacing: 3px;
 }*/
 
->>>>>>> 404d4b774cf64443d08d8793050bd434591f6f61
 .navigation-bar {
 	position: absolute;
 	padding-top: 100px;
@@ -61,16 +35,11 @@ p {
 }
 
 .logo {
-<<<<<<< HEAD
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 130px;
-	/*padding-left: 30px*/
-=======
-	width: 150px;
-	padding-left: 30px
->>>>>>> 404d4b774cf64443d08d8793050bd434591f6f61
+	padding-left: 30px;
 }
 
 .dawgpizza {
@@ -82,8 +51,6 @@ p {
 .menu-box {
 	width: 20%;
 	/*margin-left: 50% auto;*/
-<<<<<<< HEAD
-=======
 }
 
 .content-box {
@@ -92,27 +59,38 @@ p {
 }
 
 .pizzapicture {
-	float: right;
-	width: 70%;
-	margin: 10px;
->>>>>>> 404d4b774cf64443d08d8793050bd434591f6f61
-}
-
-.content-box {
-	width: 80%;
-/*	margin-right: 50% auto;*/
-}
-
-<<<<<<< HEAD
-.pizzapicture {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	width: 50%;
 }
 
-nav {
-=======
+.content-box {
+	width: 80%;
+/*	margin-right: 50% auto;*/
+}
+
+.pizzapicture1 {
+	width: 200px;
+}
+
+.pizzapicture2 {
+	width: 200px;
+}
+
+.pizzapicture3 {
+	width: 208px;
+}
+
+.aboutus {
+	text-align: center;
+}
+
+.last {
+	text-align: center;
+}
 nav {
 	padding-left: 35px;
->>>>>>> 404d4b774cf64443d08d8793050bd434591f6f61
 	top: 200px;
 	line-height: 250%;
 	letter-spacing: 1px;
@@ -150,10 +128,11 @@ nav a:hover {
 }
 
 h1 {
-	padding: 10px;
-	font-size: 30px;
+	text-align: center;
+	font-size: 50px;
 	font-weight: bold;
-	text-decoration: underline;
+	letter-spacing: 3px;
+	padding: 10px;
 }
 
 h2 {
@@ -161,6 +140,10 @@ h2 {
 	padding-bottom: 10px;
 	font-size: 25px;
 	font-weight: bold;
+}
+
+.categories {
+	text-align: center;
 }
 
 section {
@@ -204,7 +187,9 @@ section p:first-of-type:first-line {
 }
 
 .pizzaoven {
-	float: right;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 10px;
 	width: 350px;
 }

@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 	<head>
+		<link rel="stylesheet" href="lib/bootstrap-3.0.0/css/bootstrap.min.css">
 		<title>Dawg Pizza Jobs</title>
 		<meta name="description" content="Our pizzas are the best in Seattle, but don't take our word for it. Try one and you'll see!">
 		<meta charset="UTF-8">
@@ -8,17 +9,30 @@
 		<meta name="author" content="1231530">
 	</head>
 	<body>
-		<!--#include virtual="inc/logo.html" -->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<a href="index.html"><img class="logo" src="img/logo-vertical.png" alt="Logo"></a>
+					<nav>
+						<ul>
+							<li><a href="index.html">HOME</a></li>
+							<li><a href="menu.html">MENU</a></li>
+							<li><a href="about.html">ABOUT US</a></li>
+							<li><a href="jobs.html">JOBS</a></li>
+						</ul>
+					</nav>
+				</div>
 
-		<div class="content-box">
-			<!--#include virtual="inc/header.html" -->
+				<div class="col-md-9">
 
-			<p><h1>Job Openings</h1></p>
-			<p>Now hiring kitchen staff as well as delivery drivers.</p>
+					<header><h1>job openings</h1></header>
+					<p>Now hiring kitchen staff as well as delivery drivers.</p>
 
+				</div>
+			</div>
 		</div>
-
-		<!--#include virtual="inc/footer.html" -->
-
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="lib/bootstrap-3.0.0/js/bootstrap.min.js"></script>
 	</body>
 </html>
