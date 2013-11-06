@@ -3,11 +3,11 @@
 @import url(reset.css);
 
 body {
-	background-color: #ecf8f1;
+	background-color: #433f3f;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
 	padding: 10px;
-	color: #333745;
+	color: #fff;
 }
 
 p {
@@ -18,14 +18,51 @@ p {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 130px;
+	width: 200px;
 	padding-left: 30px;
+	opacity: .25;
+	transition: .1s ease;
+	-webkit-transition: .1s ease;
+	-moz-transition: .1s ease;
+	-ms-transition: .1s ease;
+	-o-transition: .1s ease;
+}
+
+.logo:hover {
+	opacity: 1;
+}
+
+.mainbar {
+	padding-top: 250px;
+}
+
+.title {
+	width: 200px;
 }
 
 .dawgpizza {
 	width: 200px;
 	right: 9px;
 	top: 170px;
+}
+
+.hipsterpizza {
+	position: relative;
+	width: 1000px;
+	opacity: 1;
+	transition: .25s ease;
+	-webkit-transition: .25s ease;
+	-moz-transition: .25s ease;
+	-ms-transition: .25s ease;
+	-o-transition: .25s ease;
+}
+
+.hipsterpizza:hover {
+	opacity: .25;
+}
+
+.imgtext {
+	position: absolute;
 }
 
 .menu-box {
@@ -78,7 +115,12 @@ nav {
 nav a {
 	padding: 10px;
 	font-size: 120%;
-	color: #333745;
+	color: #8b8b8b;
+	-webkit-transition: color .1s ease-in-out;
+	-moz-transition: color .1s ease-in-ou;
+	-ms-transition: color .1s ease-in-ou;
+	-o-transition: color .1s ease-in-ou;
+	transition: color .1s ease-in-ou;
 }
 
 nav a:link,
@@ -87,9 +129,12 @@ nav a:visited {
 }
 
 nav a:hover {
-	font-size: 115%;
-	font-weight: bold;
-	color: #b05e27;
+	/*-webkit-transition: opacity 1s ease-out;
+	-moz-transition: opacity 1s ease-out;
+	-ms-transition: opacity 1s ease-out;
+	-o-transition: opacity 1s ease-out;
+	transition: opacity 1s ease-out;*/
+	color: #fff;
 }
 
 h1 {
