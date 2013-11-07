@@ -46,9 +46,21 @@ p {
 	top: 170px;
 }
 
-.hipsterpizza {
+.imgtext {
 	position: relative;
-	width: 1000px;
+	opacity: 0;
+	font-size: 50px;
+	font-weight: bold;
+	transition: .25s ease;
+	-webkit-transition: .25s ease;
+	-moz-transition: .25s ease;
+	-ms-transition: .25s ease;
+	-o-transition: .25s ease;
+}
+
+.hipsterpizza {
+	position: absolute;
+	width: 700px;
 	opacity: 1;
 	transition: .25s ease;
 	-webkit-transition: .25s ease;
@@ -57,12 +69,42 @@ p {
 	-o-transition: .25s ease;
 }
 
-.hipsterpizza:hover {
+.maincontent:hover .hipsterpizza {
 	opacity: .25;
 }
 
-.imgtext {
-	position: absolute;
+.maincontent {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.maincontent:hover .imgtext {
+	opacity: 1;
+}
+
+.maincontent:hover .homeinfo {
+	opacity: 1;
+}
+
+.homeinfo {
+	opacity: 0;
+	transition: .25s ease;
+	-webkit-transition: .25s ease;
+	-moz-transition: .25s ease;
+	-ms-transition: .25s ease;
+	-o-transition: .25s ease;
+	padding-top: 80px;
+	font-size: 30px;
+}
+
+.homeinfo a {
+	text-decoration: none;
+	opacity: 1;
+	transition: .25s ease;
+	-webkit-transition: .25s ease;
+	-moz-transition: .25s ease;
+	-ms-transition: .25s ease;
+	-o-transition: .25s ease;
 }
 
 .menu-box {
@@ -129,11 +171,6 @@ nav a:visited {
 }
 
 nav a:hover {
-	/*-webkit-transition: opacity 1s ease-out;
-	-moz-transition: opacity 1s ease-out;
-	-ms-transition: opacity 1s ease-out;
-	-o-transition: opacity 1s ease-out;
-	transition: opacity 1s ease-out;*/
 	color: #fff;
 }
 
