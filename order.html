@@ -29,57 +29,111 @@
 						<h1>ORDERING</h1>
 					</header>
 					<div class="row">
-	              		<div class="col-md-4 col-md-push-8">
-		                    <h2>Your Cart</h2>
-		                    <div class="cart-items-container"></div>
-		                    <div class="cart-footer">
-		                        <div class="row total-row">
-		                            <div class="col-xs-10">
-		                                Total:
-		                            </div>
-		                            <div class="col-xs-2">
-		                                $<span class="total-price"></span>
-		                            </div>
-		                        </div>
-		                        <div class="row">
-		                            <div class="col-xs-12 button-row">
-		                                <button type="button" class="btn btn-primary place-order">Place My Order</button>
-		                            </div>
-		                        </div>                        
-		                    </div>
-		                </div>
-		                <div class="col-md-8 col-md-pull-4">
-		                    <div class="movies-container"></div>        
-		                </div>
+	                    <h2>Your Cart</h2>
+	                    <div class="cart-items-container"></div>
+	                    <div class="cart-footer">
+	                        <div class="row total-row">
+	                            <div class="col-xs-1">
+	                                Total:
+	                            </div>
+	                            <div class="col-xs-2">
+	                                $<span class="total-price"></span>
+	                            </div>
+	                        </div>
+	                        <div class="row">
+	                            <div class="col-xs-12 button-row">
+	                                <button type="button" class="btn btn-primary place-order">Place My Order</button>
+	                            </div>
+	                        </div>                        
+	                    </div>
 		            </div>
+
+		            <div class="row">
+		            	<div class="col-md-6">
+							<h2 class="categories">Meat Pies</h2>
+							<div class="container1">
+								<ul class="meatTemplate">
+									<p class="name"></p>
+									<p class="description"></p>
+									<p class="prices"></p> 
+									<div class="MbuttonContainer">
+										<button class="add-to-cart small" type="button" data-type="pizza" data-name="" 
+										 data-size="small" data-price="">Small
+										</button>
+
+										<button class="add-to-cart med" type="button" data-type="pizza" data-name="" 
+										 data-size="medium" data-price="">Medium
+										</button>
+
+										<button class="add-to-cart large" type="button" data-type="pizza" data-name="" 
+										 data-size="large" data-price="">Large
+										</button>
+									</div>	
+								</ul>
+							</div>
+						</div>
+
+
+						<div class="col-md-6">
+							<h2 class="categories">Vegetarian Pies</h2>
+							<div class="container2">
+								<ul class="vegTemplate">
+									<p class="name"></p>
+									<p class="description"></p>
+									<p class="prices"></p>
+									<div class="VbuttonContainer">
+										<button class="add-to-cart small" type="button" data-type="pizza" data-name="" 
+										 data-size="small" data-price="">Small
+										</button>
+
+										<button class="add-to-cart med" type="button" data-type="pizza" data-name="" 
+										 data-size="medium" data-price="">Medium
+										</button>
+
+										<button class="add-to-cart large" type="button" data-type="pizza" data-name="" 
+										 data-size="large" data-price="">Large
+										</button
+									</div>
+								</ul>
+							</div>
+						</div>
+		            </div>
+
+		            <div class="row menu">
+		            	<div class="row menu">
+		            		<div class="col-md-6">
+		            			<h2>Drinks:</h2>
+								<div class="container3">
+									<ul class="drinkTemplate">
+										<p class="name"></p>
+										<p class="price"></p>
+
+										<button class="add-to-cart" type="button" data-type="drink" data-name="" 
+										 data-size="" data-price="">Add to Cart
+										</button>
+									</ul>
+								</div>
+		            		</div>
+							
+							<div class="col-md-6">
+								<h2>Dessert:</h2>
+								<div class="container4">
+									<ul class="dessertTemplate">
+										<p class="name"></p>
+										<p class="price"></p>
+
+										<button class="add-to-cart" type="button" data-type="dessert" data-name="" 
+										 data-size="" data-price="">Add to Cart
+										</button>
+									</ul>
+
+								</div>
+							</div>
+							
+						</div>
+		            </div>
+
 		        </div>
-
-				<div class="templates">
-
-            	<!-- movie template -->
-		            <div class="movie-template movie clearfix">
-		                <h2 class="data-name"></h2>
-
-	                	<p class="format-template">
-		                    <button type="button" class="btn btn-default add-to-cart">
-		            			Buy a size <span class="data-size"></span> 
-		            			for $<span class="data-price"></span>
-		                    </button>
-	                	</p>
-		            </div>
-
-		            <!-- cart item template -->
-		            <div class="cart-item-template cart-item row">
-		                <div class="col-xs-10">
-		                    <p><button type="button" class="btn btn-default btn-xs remove-item">&times;</button> 
-		                        <span class="title"></span> (<span class="formatLabel"></span>)
-		                    </p>
-		                </div>
-		                <div class="col-xs-2 col-price">
-		                    <p>$<span class="price"></span></p>
-		                </div>
-		            </div>
-				</div>
 		</div>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
