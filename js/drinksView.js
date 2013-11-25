@@ -24,9 +24,10 @@ function createDrinksView(config) {
     }; //afterRender()
 
     //auto-render if we have a model
-    if (config.model)
+    if (config.model) {
         view.render();
-
+    }
+        
     return view;
 
 } //createDrinksView()
