@@ -15,7 +15,7 @@ function createCartView(config) {
     view.afterRender = function() {
         this.subtotal.html(this.model.getSubtotal());
         this.tax.html(this.model.getTax());
-        this.totalPrice.html(this.model.getTotalPrice());
+        this.totalPrice.html(this.model.getTotal());
     }; //afterRender()
 
     return view;

@@ -15,8 +15,8 @@ function createDessertView(config) {
     view.afterRender = function(clonedTemplate){
         var dessertTemplate = clonedTemplate.find('.dessert-template');
 
-        clonedTemplate.find('.drink-name').html(this.model.name);
-        clonedTemplate.find('.drink-price').html(this.model.price);
+        clonedTemplate.find('.dessert-name').html(this.model.name);
+        clonedTemplate.find('.dessert-price').html(this.model.price);
 
         //add buttons for the various formats, indicating their price       
         clonedTemplate.find('.btn').attr({
