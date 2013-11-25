@@ -11,18 +11,10 @@ function render(pizzas, meatTemplate, vegTemplate, container1, container2) {
 		} else {
 			instance = meatTemplate.clone();
 		}
-		small = instance.find('.small');
-		med = instance.find('.med');
-		large = instance.find('.large');
+
 		instance.find('.name').html(this.name);
 		instance.find('.description').html(this.description);
 		instance.find('.prices').html("$" + this.prices[0] + "/$" + this.prices[1] + "/$" + this.prices[2]);
-		small.setAttribute('.data-name', this.name);
-		med.setAttribute('.data-name', this.name);
-		large.setAttribute('.data-name', this.name);
-		small.setAttribute('data-price', this.prices[0]);
-		med.setAttribute('data-price', this.prices[1]);
-		large.setAttribute('data-price', this.prices[2]);
 
 
 		if (this.vegetarian) {
